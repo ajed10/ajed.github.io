@@ -1,4 +1,4 @@
-/* Fonts (From Google) - Updated to include all weights you're using */
+/* Fonts (From Google)*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
@@ -22,7 +22,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 li {
@@ -31,7 +40,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -46,13 +55,18 @@ li a.logo img {
 }
 
 li a:hover {
-    background-color: #111;
     font-family: "Montserrat", sans-serif; 
     font-weight: 500;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
 }
 
 li a.logo:hover {
     background-color: #111;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
 }
 
 /* Headings */
