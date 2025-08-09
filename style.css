@@ -1,4 +1,4 @@
-/* Fonts (From Google)*/
+/* Fonts (From Google) - Updated to include all weights you're using */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
@@ -31,7 +31,6 @@ ul {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(7.4px);
     -webkit-backdrop-filter: blur(7.4px);
-    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 li {
@@ -57,17 +56,11 @@ li a.logo img {
 li a:hover {
     font-family: "Montserrat", sans-serif; 
     font-weight: 500;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(7.4px);
-    -webkit-backdrop-filter: blur(7.4px);
 }
 
-li a.logo:hover {
-    background-color: #111;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(7.4px);
-    -webkit-backdrop-filter: blur(7.4px);
-}
+/* li a.logo:hover {
+    /* Does nothing right now*/
+/* } */
 
 /* Headings */
 h1 {
